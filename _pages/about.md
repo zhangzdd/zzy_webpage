@@ -41,14 +41,17 @@ Meanwhile, robots with simpler dynamics but more complex decision-making, like t
 <div style="display: flex; gap: 20px; justify-content: center;">
   <figure style="text-align: center;">
     <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_box_trajectory.gif" alt="box_multi" style="width: 300px;">
-    <figcaption><em>Fig 2:</em> Two agent system with inferred box type proximity constraints.</figcaption>
+    <figcaption><em>Fig 2:</em> Two agent system with inferred box type collision-avoidance constraints.</figcaption>
   </figure>
   <figure style="text-align: center;">
     <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_sphere_trajectory.gif" alt="sphere_multi" style="width: 300px;">
-    <figcaption><em>Fig 3:</em> Three agent system with inferred spherical type proximity constraints.</figcaption>
+    <figcaption><em>Fig 3:</em> Three agent system with inferred spherical type collision-avoidance constraints.</figcaption>
   </figure>
 </div>
-
+<figure style="text-align: center;">
+  <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_robotarium_line_of_sight.gif" alt="hardware_multi" width="400">
+  <figcaption><em>Fig 4:</em> Real world two agent system with inferred vision-cone constraints.</figcaption>
+</figure>
 
 <!-- Nevertheless, many questions lie answered in front of my path. Check this [post](/posts/2025/07/unanswered_questions/) for the thinking I am current having. -->
 
