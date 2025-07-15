@@ -24,7 +24,7 @@ Robotic Applications
 ------
 In the world of continuum robots, kinematics isn’t just hard — it’s soft, in all the worst ways. The actuation-to-task-space mapping is highly nonlinear, and the robots themselves are compliant, squishy entities that defy intuition. Solving their motion in free space often requires shooting methods, which are famously unstable and allergic to hard constraints. In [this work](https://arxiv.org/pdf/2308.10770), we proposed a more grounded approach: recasting kinematics as a constrained optimization problem with quadratic costs and nonlinear constraints. By exploiting local linearity in the actuation-to-task-space mapping, we generate reliable initial guesses and stable solutions.
 
-![Constrained Kinematics](CTR_paper_figure.png)
+![Constrained Kinematics](https://zhangzdd.github.io/zzy_webpage/images/CTR_paper_figure.png)
 
 <!-- For robots that have simpler dynamics but greater decision space, like the scenario in multi-agent systems, inverse inference of goals & constraints are usually as important as generating optimal control policies, as the latter will require some level of knowledge of the former. You do not want to miscalculate other robots' intentions and proximity tolerance, otherwise we will have a scary (or cute) car crash. In [this work](https://iscicra25.github.io/papers/2025-Zhang-15_Constraint_Learning_in_Mult.pdf), we studied how one can formally infer the hard constraints that are well-respected by others in the multi-agent systems, from locally optimal trajectories demonstrated. Through the lens of game theory and inverse optimal control, the hard constraints can be exactly recovered. -->
 
