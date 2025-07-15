@@ -11,9 +11,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Robotics, Georgia Institute of Technology, 2028 (expected)
-* M.S. in Electrical and Computer Engineering, Georgia Institute of Technology, 2025
-* B.S. in Engineering Physics, Tsinghua University, 2023
+* Ph.D in Robotics, Georgia Institute of Technology, 2022 - 2028 (expected)
+* M.S. in Electrical and Computer Engineering, Georgia Institute of Technology, 2023 - 2025
+* B.S. in Engineering Physics, Tsinghua University, 2018 - 2022
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 
 Experience
 ======
@@ -28,18 +35,8 @@ Skills
 * Robotics: ROS2, Linux, Pytorch, PyBullet
 * Optimization Tools: CasADi, Gurobi, cvxpy
 * Optimization Techniques: Nonlinear Programming (NLP), Mixed Integer Programming (MIP)
-<!-- * Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3 -->
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
 <!-- Talks
 ======
