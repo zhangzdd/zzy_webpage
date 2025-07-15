@@ -18,4 +18,5 @@ Challenges Ahead
 4. Inverse & forward constrained reinforcement learning. I came across the series of papers a week ago, haven't read yet. But I list some questions here, hoping I can answer in the near future. How are the constraints incorporated into the problem? Is it a soft way (like setting a steep coefficient for the constraint violation in the cost), or a hard way (some other methods that explicitly ensures constraint satisfaction)?
 
 5. Constraints work closely with safety. If a robot does not violate constraints then it is safe. Safety is a real concern for robots that work closely with delicate objects, like a human. Learning based methods excel in generalizability, which means they do not need meticulous mathematical struturing of the envrionment to generate a decent policy, but often fail to answer safety related concerns due to their probability based nature. How can we regulate learning based methods, via optimziation language and mindsets? Does the regulation come as a natural component in the learning based algorithm, or as a post-filter of the actions/policies generated? Many questions need to be answered. 
+
 ------
