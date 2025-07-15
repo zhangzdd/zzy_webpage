@@ -11,35 +11,29 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Robotics, Georgia Institute of Technology, 2028 (expected)
+* M.S. in Electrical and Computer Engineering, Georgia Institute of Technology, 2025
+* B.S. in Engineering Physics, Tsinghua University, 2023
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2025: [Virtual Summer Internship Program (VSIP)](https://ospo.cc.gatech.edu/vsip/) 
+  * [Georgia Tech Open Source Program Office](https://ospo.cc.gatech.edu/)
+  * Duties includes: Contribute to the [GTSAM](https://github.com/borglab/gtsam) open-source SLAM repository
+  * Supervisor: Dr. [Frank Dellart](https://dellaert.github.io/)
   
 Skills
 ======
-* Skill 1
+* Programming Language: C/C++, Python, Matlab, 
+* Robotics: ROS2, Linux, Pytorch, PyBullet
+* Optimization Tools: CasADi, Gurobi, cvxpy
+* Optimization Techniques: Nonlinear Programming (NLP), Mixed Integer Programming (MIP)
+<!-- * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
 Publications
 ======
@@ -47,18 +41,18 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer for RA-L, IROS, CoRL
