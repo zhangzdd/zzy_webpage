@@ -26,9 +26,29 @@ In the world of continuum robots, kinematics isn’t just hard — it’s soft, 
 
 ![Constrained Kinematics](https://zhangzdd.github.io/zzy_webpage/images/CTR_paper_figure.png)
 
+<figure>
+  <img src="https://zhangzdd.github.io/zzy_webpage/images/CTR_paper_figure.png" alt="Constrained Kinematics" width="500">
+  <figcaption><em>Fig 1:</em> Solve for continuum robot kinematics in constraint space (e.g. a 3D tube) via computing elastic energy minimum.</figcaption>
+</figure>
 <!-- For robots that have simpler dynamics but greater decision space, like the scenario in multi-agent systems, inverse inference of goals & constraints are usually as important as generating optimal control policies, as the latter will require some level of knowledge of the former. You do not want to miscalculate other robots' intentions and proximity tolerance, otherwise we will have a scary (or cute) car crash. In [this work](https://iscicra25.github.io/papers/2025-Zhang-15_Constraint_Learning_in_Mult.pdf), we studied how one can formally infer the hard constraints that are well-respected by others in the multi-agent systems, from locally optimal trajectories demonstrated. Through the lens of game theory and inverse optimal control, the hard constraints can be exactly recovered. -->
 
 Meanwhile, robots with simpler dynamics but more complex decision-making, like those in multi-agent systems, introduce a new challenge: inference. It’s not enough to compute optimal strategies — you must also deduce what others are optimizing for. Misjudging another robot’s goals or proximity tolerance might lead to a dangerous (or, depending on your mood, adorable) fender-bender. In [this work](https://iscicra25.github.io/papers/2025-Zhang-15_Constraint_Learning_in_Mult.pdf), we formalized the inverse problem: learning the hard constraints respected by other agents, based on their locally optimal trajectories. Using tools from game theory and inverse optimal control, we showed that these constraints can, in fact, be exactly recovered.
+
+<!-- <div style="display: flex; gap: 10px; justify-content: center;">
+  <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_box_trajectory" alt="box_multi" style="width: 45%;">
+  <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_sphere_trajectory" alt="sphere_multi" style="width: 45%;">
+</div> -->
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <figure style="text-align: center;">
+    <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_box_trajectory.gif" alt="box_multi" style="width: 300px;">
+    <figcaption><em>Fig 1:</em> Two agent system with inferred box type proximity constraints.</figcaption>
+  </figure>
+  <figure style="text-align: center;">
+    <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_sphere_trajectory.gif" alt="sphere_multi" style="width: 300px;">
+    <figcaption><em>Fig 2:</em> Three agent system with inferred spherical type proximity constraints.</figcaption>
+  </figure>
+</div>
+
 
 <!-- Nevertheless, many questions lie answered in front of my path. Check this [post](/posts/2025/07/unanswered_questions/) for the thinking I am current having. -->
 
