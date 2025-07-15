@@ -24,10 +24,10 @@ Robotic Applications
 ------
 In the world of continuum robots, kinematics isn’t just hard — it’s soft, in all the worst ways. The actuation-to-task-space mapping is highly nonlinear, and the robots themselves are compliant, squishy entities that defy intuition. Solving their motion in free space often requires shooting methods, which are famously unstable and allergic to hard constraints. In [this work](https://arxiv.org/pdf/2308.10770), we proposed a more grounded approach: recasting kinematics as a constrained optimization problem with quadratic costs and nonlinear constraints. By exploiting local linearity in the actuation-to-task-space mapping, we generate reliable initial guesses and stable solutions.
 
-![Constrained Kinematics](https://zhangzdd.github.io/zzy_webpage/images/CTR_paper_figure.png)
+<!-- ![Constrained Kinematics](https://zhangzdd.github.io/zzy_webpage/images/CTR_paper_figure.png) -->
 
-<figure>
-  <img src="https://zhangzdd.github.io/zzy_webpage/images/CTR_paper_figure.png" alt="Constrained Kinematics" width="500">
+<figure style="text-align: center;">
+  <img src="https://zhangzdd.github.io/zzy_webpage/images/CTR_paper_figure.png" alt="Constrained Kinematics" width="400">
   <figcaption><em>Fig 1:</em> Solve for continuum robot kinematics in constraint space (e.g. a 3D tube) via computing elastic energy minimum.</figcaption>
 </figure>
 <!-- For robots that have simpler dynamics but greater decision space, like the scenario in multi-agent systems, inverse inference of goals & constraints are usually as important as generating optimal control policies, as the latter will require some level of knowledge of the former. You do not want to miscalculate other robots' intentions and proximity tolerance, otherwise we will have a scary (or cute) car crash. In [this work](https://iscicra25.github.io/papers/2025-Zhang-15_Constraint_Learning_in_Mult.pdf), we studied how one can formally infer the hard constraints that are well-respected by others in the multi-agent systems, from locally optimal trajectories demonstrated. Through the lens of game theory and inverse optimal control, the hard constraints can be exactly recovered. -->
@@ -41,11 +41,11 @@ Meanwhile, robots with simpler dynamics but more complex decision-making, like t
 <div style="display: flex; gap: 20px; justify-content: center;">
   <figure style="text-align: center;">
     <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_box_trajectory.gif" alt="box_multi" style="width: 300px;">
-    <figcaption><em>Fig 1:</em> Two agent system with inferred box type proximity constraints.</figcaption>
+    <figcaption><em>Fig 2:</em> Two agent system with inferred box type proximity constraints.</figcaption>
   </figure>
   <figure style="text-align: center;">
     <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_sphere_trajectory.gif" alt="sphere_multi" style="width: 300px;">
-    <figcaption><em>Fig 2:</em> Three agent system with inferred spherical type proximity constraints.</figcaption>
+    <figcaption><em>Fig 3:</em> Three agent system with inferred spherical type proximity constraints.</figcaption>
   </figure>
 </div>
 
