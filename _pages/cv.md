@@ -6,6 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+[📄 Download my full CV (PDF)]({{ "files/CV_zzy_12_1.pdf" | relative_url }})
 
 {% include base_path %}
 
@@ -53,3 +54,8 @@ Skills
 Service and leadership
 ======
 * Reviewer for RA-L, IROS, CoRL
+
+Awards
+======
+*  Scholarships for Academic Excellence (2019) and Scientific Innovation (2020, 2021), Tsinghua University
+*  STEER (Supporting Teaching ExpERience) Fellowship, Georgia Institute of Technology
