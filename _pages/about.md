@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-This is Zhouyu Zhang's (章舟宇) website. Every thing is still under construction, myself as well. After obtaining my Bachelor's Degree from Tsinghua University, Beijing, I now pursue my PhD in Robotics at Georgia Intitute of Technology. I am advised by Dr. [Yue Chen](https://sites.google.com/view/bm2lab), then Dr. [Glen Chou](https://glenchou.github.io/).
+This is Zhouyu Zhang's (章舟宇) website. Every thing is still under construction, myself as well. After obtaining my Bachelor's Degree from Tsinghua University, Beijing, I now pursue my PhD in Robotics at Georgia Intitute of Technology. I am advised by Dr. [Yue Chen](https://sites.google.com/view/bm2lab), then Dr. [Glen Chou](https://glenchou.github.io/) and Dr. [Frank (C.Y.) Chiu](https://chihyuanchiu.github.io/).
 
 Research Interest
 ------
@@ -52,7 +52,10 @@ Meanwhile, robots with simpler dynamics but more complex decision-making, like t
   <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_robotarium_line_of_sight.gif" alt="hardware_multi" width="400">
   <figcaption><em>Fig 4:</em> Real world two agent system with inferred vision-cone constraints.</figcaption>
 </figure>
-
+<figure style="text-align: center;">
+  <img src="https://zhangzdd.github.io/zzy_webpage/images/multi_agent_robotarium_line_of_sight_2.gif" alt="hardware_multi_2" width="400">
+  <figcaption><em>Fig 5:</em> Real world two agent system with inferred vision-cone constraints.</figcaption>
+</figure>
 <!-- Nevertheless, many questions lie answered in front of my path. Check this [post](/posts/2025/07/unanswered_questions/) for the thinking I am current having. -->
 
 Many questions remain unanswered — structurally, philosophically, and computationally. You can find a collection of such questions [here]({{ site.baseurl }}/posts/2025/07/unanswered_questions/). They keep me up at night.
